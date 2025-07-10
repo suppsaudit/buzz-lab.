@@ -116,7 +116,7 @@ const HeroSection = () => {
           <img
             src="/images/hero-image.jpg"
             alt="モダンなオフィス会議室"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-left lg:object-center"
           />
         </div>
 
