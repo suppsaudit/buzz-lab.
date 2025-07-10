@@ -27,7 +27,8 @@ const HeroSection = () => {
             opacity: 0.7,
           }}
         >
-          Buzz
+          <span className="hidden sm:inline">Buzz</span>
+          <span className="inline sm:hidden text-[60vw] leading-none">Buzz</span>
         </span>
         {/* Lab: Buzzのすぐ下に表示 */}
         <span
@@ -44,7 +45,8 @@ const HeroSection = () => {
             opacity: 0.7,
           }}
         >
-          Lab.
+          <span className="hidden sm:inline">Lab.</span>
+          <span className="inline sm:hidden text-[60vw] leading-none">Lab.</span>
         </span>
         {/* Lab: 画像エリアに表示 */}
         <span
@@ -61,7 +63,8 @@ const HeroSection = () => {
             opacity: 0.6,
           }}
         >
-          Lab.
+          <span className="hidden sm:inline">Lab.</span>
+          <span className="inline sm:hidden text-[50vw] leading-none">Lab.</span>
         </span>
       </div>
       {/* アニメーションCSS */}
