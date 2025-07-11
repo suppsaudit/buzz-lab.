@@ -92,8 +92,8 @@ const HeroSection = () => {
               <div className="space-y-4 text-xl text-gray-700 leading-relaxed font-normal mb-8" style={{ letterSpacing: '0.01em', lineHeight: '0.85' }}>
                 {/* 本当にいいものを作る人たちと／それを求める人たちを繋ぐ：SPは改行、PCは1行 */}
                 <span className="block lg:hidden">
-                  <p className="font-bold text-sm" style={{ lineHeight: '1.7rem' }}>市場発掘からクリエイティブ制作・プロモーション戦略まで<br />トータルプロデュースで確実に届ける。</p>
-                  <p className="font-bold text-sm" style={{ lineHeight: '1.7rem' }}>美容・健康領域特化のプロモーションパートナーです。</p>
+                  <p className="font-bold text-base" style={{ lineHeight: '1.7rem' }}>市場発掘からクリエイティブ制作・プロモーション戦略まで<br />トータルプロデュースで確実に届ける。</p>
+                  <p className="font-bold text-base" style={{ lineHeight: '1.7rem' }}>美容・健康領域特化のプロモーションパートナーです。</p>
                 </span>
                 <span className="hidden lg:block">
                   <p className="font-bold">市場発掘からクリエイティブ制作・プロモーション戦略まで トータルプロデュースで確実に届ける。</p>
