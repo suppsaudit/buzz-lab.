@@ -86,18 +86,17 @@ const HeroSection = () => {
             <div className="lg:col-span-8">
               {/* タイトル：SPは1行、PCは改行 */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 mb-8 leading-tight tracking-tight" style={{ letterSpacing: '0.01em' }}>
-                <span className="block lg:hidden">価値あるものを、求める人へ</span>
+                <span className="block lg:hidden" style={{ letterSpacing: '0em' }}>価値あるものを、求める人へ</span>
                 <span className="hidden lg:block">価値あるものを、<br />求める人へ</span>
               </h1>
               <div className="space-y-4 text-xl text-gray-700 leading-relaxed font-normal mb-8" style={{ letterSpacing: '0.01em', lineHeight: '0.85' }}>
                 {/* 本当にいいものを作る人たちと／それを求める人たちを繋ぐ：SPは改行、PCは1行 */}
                 <span className="block lg:hidden">
-                  <p className="font-bold">本当にいいものを作る人たちと</p>
-                  <p className="font-bold">それを求める人たちを繋ぐ</p>
+                  <p className="font-bold" style={{ lineHeight: '2rem' }}>市場発掘からクリエイティブ制作・プロモーション戦略まで<br />トータルプロデュースで確実に届ける。</p>
                   <p className="font-bold" style={{ lineHeight: '2rem' }}>美容・健康領域特化のプロモーションパートナー</p>
                 </span>
                 <span className="hidden lg:block">
-                  <p className="font-bold">本当にいいものを作る人たちと それを求める人たちを繋ぐ</p>
+                  <p className="font-bold">市場発掘からクリエイティブ制作・プロモーション戦略まで トータルプロデュースで確実に届ける。</p>
                   <p className="font-bold">美容・健康領域特化のプロモーションパートナー</p>
                 </span>
               </div>
