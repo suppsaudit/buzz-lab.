@@ -86,7 +86,7 @@ const HeroSection = () => {
             <div className="lg:col-span-8">
               {/* タイトル：SPは1行、PCは改行 */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 mb-8 leading-tight tracking-tight" style={{ letterSpacing: '0.01em' }}>
-                価値あるものを、求める人へ
+                価値あるものを<span style={{ marginRight: '-0.4em', display: 'inline-block' }}>、</span>求める人へ
               </h1>
               <div className="space-y-4 text-xl text-gray-700 leading-relaxed font-normal mb-8" style={{ letterSpacing: '0.01em', lineHeight: '0.85' }}>
                 {/* 本当にいいものを作る人たちと／それを求める人たちを繋ぐ：SPは改行、PCは1行 */}
