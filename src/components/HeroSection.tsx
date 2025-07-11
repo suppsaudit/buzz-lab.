@@ -84,9 +84,11 @@ const HeroSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             {/* Left: Text Content */}
             <div className="lg:col-span-8">
-              {/* タイトル：SPは1行、PCは改行 */}
+              {/* タイトル：SPは1行、mdは改行、lgは1行 */}
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 mb-8 leading-tight tracking-tight" style={{ letterSpacing: '0.01em' }}>
-                価値あるものを<span style={{ marginRight: '-0.4em', display: 'inline-block' }}>、</span>求める人へ
+                <span className="block md:hidden">価値あるものを<span style={{ marginRight: '-0.4em', display: 'inline-block' }}>、</span>求める人へ</span>
+                <span className="hidden md:block lg:hidden">価値あるものを<span style={{ marginRight: '-0.4em', display: 'inline-block' }}>、</span><br />求める人へ</span>
+                <span className="hidden lg:block">価値あるものを<span style={{ marginRight: '-0.4em', display: 'inline-block' }}>、</span>求める人へ</span>
               </h1>
               <div className="space-y-4 text-xl text-gray-700 leading-relaxed font-normal mb-8" style={{ letterSpacing: '0.01em', lineHeight: '0.85' }}>
                 {/* 本当にいいものを作る人たちと／それを求める人たちを繋ぐ：SPは改行、PCは1行 */}
