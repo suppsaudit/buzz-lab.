@@ -30,7 +30,7 @@ const Header = () => {
       href: "#service"
     },
     { name: "お知らせ", href: "#news" },
-    { name: "会社概要", href: "#company" },
+    { name: "会社概要", href: "/company" },
   ];
 
   return (

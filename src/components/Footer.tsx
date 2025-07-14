@@ -30,8 +30,9 @@ const Footer = () => {
               <Button
                 variant="ghost"
                 className="text-white border border-white/30 rounded-full px-8 py-2 hover:bg-white hover:text-gray-900"
+                asChild
               >
-                詳しく見る
+                <a href="/company">詳しく見る</a>
               </Button>
             </div>
           </div>
@@ -97,7 +98,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                      <span className="block">サプリさ接種ログアプリの開発・運営</span>
+                      <span className="block">サプリ接種ログアプリの開発・運営</span>
                     </a>
                   </li>
                 </ul>
