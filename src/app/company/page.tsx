@@ -60,6 +60,12 @@ export default function CompanyPage() {
         <p className="text-gray-600 mb-1">・楽天グループ ヘルスケア事業部 業務支援<br />・国内D2Cメーカー販売強化支援案件にてショップ・オブ・ザ・マンス（2021年6月）受賞<br />・ECプラットフォーム インユーマーケティングマネージャー</p>
       </div>
       <div className="text-center mt-8">
+        <a 
+          href="https://www.buzz-force.com/" 
+          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+        >
+          TOPへ戻る
+        </a>
       </div>
     </div>
   );
