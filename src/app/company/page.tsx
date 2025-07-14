@@ -57,7 +57,7 @@ export default function CompanyPage() {
         <p className="text-gray-800 font-semibold mb-1">横田 愛実</p>
         <p className="text-gray-600 mb-2">大学卒業、WEB制作会社、広告代理店、ECプラットフォームでのデジタルマーケティング領域で活躍。美容・サプリ業界での豊富な実務経験が強みです。</p>
         <p className="text-gray-600 mb-1">【主な経歴】</p>
-        <p className="text-gray-600 mb-1">・楽天グループ ヘルスケア事業部 業務支援<br />国内D2Cマットレスブランドの販売強化支援 案件にてショップ・オブ・ザ・マンス（2021年6月）受賞<br />・ECプラットフォーム インユーマーケティングマネージャー</p>
+        <p className="text-gray-600 mb-1">・楽天グループ ヘルスケア事業部 業務支援<br />・国内D2Cメーカー販売強化支援案件にてショップ・オブ・ザ・マンス（2021年6月）受賞<br />・ECプラットフォーム インユーマーケティングマネージャー</p>
       </div>
       <div className="text-center mt-8">
       </div>
