@@ -95,6 +95,11 @@ const Footer = () => {
                       <span className="block">マーケティングプランニング</span>
                     </a>
                   </li>
+                  <li>
+                    <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                      <span className="block">サプリさ接種ログアプリの開発・運営</span>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
