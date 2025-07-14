@@ -13,7 +13,7 @@ export default function CompanyPage() {
           <tbody>
             <tr>
               <th className="bg-gray-50 font-semibold text-gray-700 w-32 p-3 text-left border-b">事業者名</th>
-              <td className="p-3 border-b text-gray-600">Buzz Lab.（個人事業主）</td>
+              <td className="p-3 border-b text-gray-600">Buzz Lab.</td>
             </tr>
             <tr>
               <th className="bg-gray-50 font-semibold text-gray-700 p-3 text-left border-b">代表</th>
@@ -57,12 +57,11 @@ export default function CompanyPage() {
       <div className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-lg font-bold text-gray-800 mb-3">代表プロフィール</h2>
         <p className="text-gray-800 font-semibold mb-1">横田 愛実</p>
-        <p className="text-gray-600 mb-2">白百合女子大学卒業、フランス留学を経て、ブランディングエージェンシー、ECプラットフォーム、広告代理店での経験を積む。美容・サプリ業界での豊富な実務経験を活かし、2025年に独立。</p>
+        <p className="text-gray-600 mb-2">大学卒業、WEB制作会社、広告代理店、ECプラットフォームでのデジタルマーケティング領域で活躍。美容・サプリ業界での豊富な実務経験が強みです。</p>
         <p className="text-gray-600 mb-1">【主な経歴】</p>
         <p className="text-gray-600 mb-1">・ECプラットフォーム マーケティングマネージャー<br />・ブランディングエージェンシー Webディレクター<br />・楽天グループ ヘルスケア事業部 業務支援</p>
       </div>
       <div className="text-center mt-8">
-        <a href="#contact" className="inline-block px-8 py-3 bg-blue-600 text-white rounded-md font-semibold hover:bg-blue-700 transition">お問い合わせ</a>
       </div>
     </div>
   );
