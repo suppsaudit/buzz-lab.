@@ -62,7 +62,7 @@ export default function CompanyPage() {
       <div className="text-center mt-8">
         <a 
           href="https://www.buzz-force.com/" 
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+          className="inline-block bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg transition-colors duration-200"
         >
           TOPへ戻る
         </a>
